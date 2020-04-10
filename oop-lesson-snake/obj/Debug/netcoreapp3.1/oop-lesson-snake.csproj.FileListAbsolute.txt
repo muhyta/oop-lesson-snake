@@ -1,0 +1,13 @@
+C:\filtered\work\projects\oop-lesson-snake\oop-lesson-snake\bin\Debug\netcoreapp3.1\oop-lesson-snake.exe
+C:\filtered\work\projects\oop-lesson-snake\oop-lesson-snake\bin\Debug\netcoreapp3.1\oop-lesson-snake.deps.json
+C:\filtered\work\projects\oop-lesson-snake\oop-lesson-snake\bin\Debug\netcoreapp3.1\oop-lesson-snake.runtimeconfig.json
+C:\filtered\work\projects\oop-lesson-snake\oop-lesson-snake\bin\Debug\netcoreapp3.1\oop-lesson-snake.runtimeconfig.dev.json
+C:\filtered\work\projects\oop-lesson-snake\oop-lesson-snake\bin\Debug\netcoreapp3.1\oop-lesson-snake.dll
+C:\filtered\work\projects\oop-lesson-snake\oop-lesson-snake\bin\Debug\netcoreapp3.1\oop-lesson-snake.pdb
+C:\filtered\work\projects\oop-lesson-snake\oop-lesson-snake\obj\Debug\netcoreapp3.1\oop-lesson-snake.csprojAssemblyReference.cache
+C:\filtered\work\projects\oop-lesson-snake\oop-lesson-snake\obj\Debug\netcoreapp3.1\oop-lesson-snake.csproj.CoreCompileInputs.cache
+C:\filtered\work\projects\oop-lesson-snake\oop-lesson-snake\obj\Debug\netcoreapp3.1\oop-lesson-snake.AssemblyInfoInputs.cache
+C:\filtered\work\projects\oop-lesson-snake\oop-lesson-snake\obj\Debug\netcoreapp3.1\oop-lesson-snake.AssemblyInfo.cs
+C:\filtered\work\projects\oop-lesson-snake\oop-lesson-snake\obj\Debug\netcoreapp3.1\oop-lesson-snake.dll
+C:\filtered\work\projects\oop-lesson-snake\oop-lesson-snake\obj\Debug\netcoreapp3.1\oop-lesson-snake.pdb
+C:\filtered\work\projects\oop-lesson-snake\oop-lesson-snake\obj\Debug\netcoreapp3.1\oop-lesson-snake.genruntimeconfig.cache
