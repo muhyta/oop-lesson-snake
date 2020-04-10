@@ -10,6 +10,18 @@ namespace oop_lesson_snake
         internal int y;
         internal char sym;
 
+        internal Point()
+        {
+
+        }
+
+        internal Point(int _x, int _y, char _sym)
+        {
+            x = _x;
+            y = _y;
+            sym = _sym;
+        }
+
         internal void Draw()
         {
             Console.SetCursorPosition(x, y);
