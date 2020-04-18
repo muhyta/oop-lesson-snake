@@ -43,6 +43,12 @@ namespace oop_lesson_snake
             }
         }
 
+        internal void Clear()
+        {
+            sym = ' ';
+            Draw();
+        }
+
         internal void Draw()
         {
             Console.SetCursorPosition(x, y);

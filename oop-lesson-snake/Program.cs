@@ -19,6 +19,19 @@ namespace oop_lesson_snake
             Point p1 = new Point(3, 4, '*');
             Snake snake = new Snake(p1, 4, Direction.RIGHT);
             snake.Draw();
+            snake.Move();
+            Console.ReadKey();
+            snake.Move();
+            Console.ReadKey();
+            snake.Move();
+            Console.ReadKey();
+            snake.Move();
+            Console.ReadKey();
+            snake.Move();
+            Console.ReadKey();
+            snake.Move();
+            Console.ReadKey();
+            snake.Move();
             Console.ReadKey();
         }
 
