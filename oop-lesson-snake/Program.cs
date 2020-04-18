@@ -15,10 +15,10 @@ namespace oop_lesson_snake
             vl1.Draw();
             VerticalLine vl2 = new VerticalLine(119, 0, 28, '+');
             vl2.Draw();
-            Point p1 = new Point(2, 3, '*');
-            p1.Draw();
-            Point p2 = new Point(4, 5, '#');
-            p2.Draw();
+            
+            Point p1 = new Point(3, 4, '*');
+            Snake snake = new Snake(p1, 4, Direction.RIGHT);
+            snake.Draw();
             Console.ReadKey();
         }
 

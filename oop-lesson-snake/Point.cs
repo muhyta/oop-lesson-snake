@@ -10,9 +10,11 @@ namespace oop_lesson_snake
         internal int y;
         internal char sym;
 
-        internal Point()
+        internal Point(Point p)
         {
-
+            x = p.x;
+            y = p.y;
+            sym = p.sym;
         }
 
         internal Point(int _x, int _y, char _sym)
@@ -20,6 +22,25 @@ namespace oop_lesson_snake
             x = _x;
             y = _y;
             sym = _sym;
+        }
+
+        internal void Move(int offset, Direction direction)
+        {
+            switch (direction)
+            {
+                case Direction.UP:
+                    y = y - offset;
+                    break;
+                case Direction.DOWN:
+                    y = y + offset;
+                    break;
+                case Direction.LEFT:
+                    x = x - offset;
+                    break;
+                case Direction.RIGHT:
+                    x = x + offset;
+                    break;
+            }
         }
 
         internal void Draw()
