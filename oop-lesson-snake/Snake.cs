@@ -39,5 +39,24 @@ namespace oop_lesson_snake
             nextPoint.Move(1, direction);
             return nextPoint;
         }
+
+        internal void HandleKey(ConsoleKey key)
+        {
+            switch (key)
+            {
+                case ConsoleKey.UpArrow:
+                    direction = Direction.UP;
+                    break;
+                case ConsoleKey.DownArrow:
+                    direction = Direction.DOWN;
+                    break;
+                case ConsoleKey.LeftArrow:
+                    direction = Direction.LEFT;
+                    break;
+                case ConsoleKey.RightArrow:
+                    direction = Direction.RIGHT;
+                    break;
+            }
+        }
     }
 }
