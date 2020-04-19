@@ -21,6 +21,11 @@ namespace oop_lesson_snake
             Point p1 = new Point(3, 4, '*');
             Snake snake = new Snake(p1, 4, Direction.RIGHT);
             snake.Draw();
+
+            FoodCreator foodCreater = new FoodCreator(120, 30, '@');
+            Point food = foodCreater.CreateFood();
+            food.Draw();
+
             while(true)
             {
                 if (Console.KeyAvailable)
@@ -29,8 +34,16 @@ namespace oop_lesson_snake
                     if (pressed_key.Key == ConsoleKey.Escape) break;
                     snake.HandleKey(pressed_key.Key);
                 }
+                if (snake.Eat(food))
+                {
+                    food = foodCreater.CreateFood();
+                    food.Draw();
+                }
+                else
+                {
+                    snake.Move();
+                }
                 Thread.Sleep(100);
-                snake.Move();
             }
             
             

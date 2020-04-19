@@ -54,5 +54,16 @@ namespace oop_lesson_snake
             Console.SetCursorPosition(x, y);
             Console.Write(sym);
         }
+
+        internal bool IsHit(Point food)
+        {
+            return this.x == food.x && this.y == food.y;
+        }
+
+        internal void AbsorbBy(Point p)
+        {
+            sym = p.sym;
+            Draw();
+        }
     }
 }

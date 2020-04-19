@@ -58,5 +58,18 @@ namespace oop_lesson_snake
                     break;
             }
         }
+
+        internal bool Eat(Point food)
+        {
+            Point head = GetNextPoint();
+            if (head.IsHit(food))
+            {
+                food.AbsorbBy(head);
+                pList.Add(food);
+                return true;
+            }
+            else 
+                return false;
+        }
     }
 }
