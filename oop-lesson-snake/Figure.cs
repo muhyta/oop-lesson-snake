@@ -8,7 +8,7 @@ namespace oop_lesson_snake
     {
         protected List<Point> pList;
 
-        internal void Draw()
+        internal virtual void Draw()
         {
             foreach (Point p in pList)
             {

@@ -22,7 +22,7 @@ namespace oop_lesson_snake
             Snake snake = new Snake(p1, 4, Direction.RIGHT);
             snake.Draw();
 
-            FoodCreator foodCreater = new FoodCreator(120, 30, '@');
+            FoodCreator foodCreater = new FoodCreator(118, 27, '@');
             Point food = foodCreater.CreateFood();
             food.Draw();
 

@@ -29,7 +29,9 @@ namespace oop_lesson_snake
             pList.Add(head);
 
             tail.Clear();
+            Console.ForegroundColor = ConsoleColor.Green;
             head.Draw();
+            Console.ForegroundColor = ConsoleColor.White;
         }
 
         private Point GetNextPoint()

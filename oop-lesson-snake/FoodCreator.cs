@@ -19,7 +19,7 @@ namespace oop_lesson_snake
 
         internal Point CreateFood()
         {
-            return new Point(random.Next(maxWidth), random.Next(maxHeight), sym);
+            return new Point(random.Next(2,maxWidth), random.Next(2,maxHeight), sym);
         }
     }
 }
