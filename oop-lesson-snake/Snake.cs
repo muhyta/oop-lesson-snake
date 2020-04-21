@@ -34,6 +34,19 @@ namespace oop_lesson_snake
             Console.ForegroundColor = ConsoleColor.White;
         }
 
+        internal bool IsHitTail()
+        {
+            Point head = pList[pList.Count - 1];
+            for (int i = 0; i< pList.Count-2)
+            {
+                if (head.IsHit(p))
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
         private Point GetNextPoint()
         {
             Point head = pList[pList.Count - 1];

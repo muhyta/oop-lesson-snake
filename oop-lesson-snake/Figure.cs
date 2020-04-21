@@ -15,5 +15,29 @@ namespace oop_lesson_snake
                 p.Draw();
             }
         }
+
+        internal bool IsHit(Figure figure)
+        {
+            foreach (Point p in pList)
+            {
+                if (figure.IsHit(p))
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        internal bool IsHit(Point _p)
+        {
+            foreach (Point p in pList)
+            {
+                if (p.IsHit(_p))
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
     }
 }

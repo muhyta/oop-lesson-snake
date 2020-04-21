@@ -16,11 +16,5 @@ namespace oop_lesson_snake
             }
         }
 
-        internal override void Draw()
-        {
-            Console.ForegroundColor = ConsoleColor.Yellow;
-            base.Draw();
-            Console.ForegroundColor = ConsoleColor.White;
-        }
     }
 }
