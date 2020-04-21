@@ -37,9 +37,9 @@ namespace oop_lesson_snake
         internal bool IsHitTail()
         {
             Point head = pList[pList.Count - 1];
-            for (int i = 0; i< pList.Count-2)
+            for (int i = 0; i< pList.Count-2; i++)
             {
-                if (head.IsHit(p))
+                if (head.IsHit(pList[i]))
                 {
                     return true;
                 }
